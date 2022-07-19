@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b7jEOjYeHH4LKe9FWUkA+C9ICHOp3vKIaffv998cRgZOqoU2lt37rCSwN2FyzKqqyKnsplD7PfJSG5TRNn6RQg==",
+  "dgSpecHash": "ewqLlt8t9tVgDifmodJKLFgsYEW0yBYajTSMrgu4kCqZdL/6NLw8tSwJ72AlvzBFMa88HEwj6kgze6VuQawH0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\Windows_SEQ\\.local\\",
+  "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_SEQ\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
@@ -277,18 +277,5 @@
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.0-preview\\uipath.uiautomation.activities.22.4.0-preview.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.vision\\3.3.0-preview\\uipath.vision.3.3.0-preview.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\Windows_SEQ\\.local",
-      "message": "System.Private.ServiceModel 4.7.0 depends on System.Security.Cryptography.Xml (>= 4.5.0) but System.Security.Cryptography.Xml 4.5.0 was not found. An approximate best match of System.Security.Cryptography.Xml 5.0.0 was resolved.",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net6.0-windows7.0",
-        "net6.0-windows7.0/win10-x64"
-      ]
-    }
-  ]
+  "logs": []
 }
