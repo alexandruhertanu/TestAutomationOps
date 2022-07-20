@@ -1,17 +1,17 @@
 {
-  "name": "WinLegacy_VB_SEQ",
+  "name": "Windows_VB",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3-beta.2507142]",
-    "UiPath.Mail.Activities": "[1.15.0-preview]",
-    "UiPath.System.Activities": "[22.4.0-preview]",
-    "UiPath.UIAutomation.Activities": "[22.4.0-preview]"
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.0.0",
+  "studioVersion": "22.4.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "53cbb61c-4b42-4703-a2b9-ab5f5318ea6c",
+      "uniqueId": "fb3ed605-5049-4a9b-9c22-28b0f5c7877f",
       "input": [],
       "output": []
     }
@@ -54,5 +54,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }

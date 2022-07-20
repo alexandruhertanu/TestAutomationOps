@@ -41,12 +41,42 @@
     "fileInfoCollection": [],
     "modernBehavior": true
   },
+  "arguments": {
+    "input": [
+      {
+        "name": "argOut",
+        "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": false
+      },
+      {
+        "name": "argBoolean",
+        "type": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true
+      }
+    ],
+    "output": []
+  },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
       "uniqueId": "8fdec873-5aca-48e0-b2ec-5515cbb14345",
-      "input": [],
+      "input": [
+        {
+          "name": "argOut",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "argBoolean",
+          "type": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
       "output": []
     }
   ],

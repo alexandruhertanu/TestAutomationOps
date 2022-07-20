@@ -2923,9 +2923,6 @@
           "lib/net45/Microsoft.Web.WebView2.WinForms.dll": {},
           "lib/net45/Microsoft.Web.WebView2.Wpf.dll": {}
         },
-        "native": {
-          "runtimes/win-x64/native/_._": {}
-        },
         "build": {
           "build/_._": {}
         }
@@ -3284,7 +3281,7 @@
           "ref/net45/_._": {}
         },
         "runtime": {
-          "runtimes/win/lib/net45/_._": {}
+          "lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.7.1": {
@@ -3335,7 +3332,7 @@
           "lib/net461/_._": {}
         },
         "runtime": {
-          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Encodings.Web/4.7.1": {
@@ -8203,9 +8200,9 @@
     "restore": {
       "projectUniqueName": "WinLegacy_VB_SEQ",
       "projectName": "WinLegacy_VB_SEQ",
-      "projectPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\WinLegacy_VB_SEQ\\.local",
+      "projectPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\WinLegacy_VB_SEQ\\.local",
       "packagesPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\WinLegacy_VB_SEQ\\.local"
+      "outputPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\WinLegacy_VB_SEQ\\.local"
     },
     "frameworks": {
       "net461": {
@@ -8231,7 +8228,7 @@
             "version": "[22.4.0-preview, 22.4.0-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json"
       }
     },
     "runtimes": {
@@ -8239,5 +8236,12 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1007",
+      "level": "Error",
+      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
+    }
+  ]
 }
