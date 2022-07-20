@@ -18623,9 +18623,9 @@
     "restore": {
       "projectUniqueName": "Windows_VB",
       "projectName": "Windows_VB",
-      "projectPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\Windows_VB\\.local",
+      "projectPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local",
       "packagesPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\Windows_VB\\.local"
+      "outputPath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -18651,7 +18651,7 @@
             "version": "[22.4.5, 22.4.5]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json"
       }
     },
     "runtimes": {
@@ -18659,5 +18659,12 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1007",
+      "level": "Error",
+      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
+    }
+  ]
 }

@@ -1,12 +1,11 @@
 {
-  "name": "Windows_VB",
+  "name": "CrossPlatform_C",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -18,7 +17,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
@@ -42,31 +41,17 @@
     "fileInfoCollection": [],
     "modernBehavior": true
   },
-  "arguments": {
-    "input": [],
-    "output": [
-      {
-        "name": "outArg",
-        "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-      }
-    ]
-  },
-  "expressionLanguage": "VisualBasic",
+  "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "fb3ed605-5049-4a9b-9c22-28b0f5c7877f",
+      "uniqueId": "e3c31c04-ff69-42e2-8e1c-9ea1286d4d3d",
       "input": [],
-      "output": [
-        {
-          "name": "outArg",
-          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-        }
-      ]
+      "output": []
     }
   ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Portable"
 }

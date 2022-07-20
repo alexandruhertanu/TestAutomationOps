@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J1Vmk2D0uTAKqis1LVvsSHWnpak8nehF7dgAsuyBsBVXMbi7zXpAGuTjniSnf3MOLslXACv6gtXGc7S/e5jc5A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\Windows_VB\\.local\\",
+  "dgSpecHash": "hh4hcWP8RrK5fy6rjLJBSP3Lhltjt0YCnJqV+6y4/Bo5tzuKVJWOWT2fZKWsIhEL4ufb59cI9Wvg9lbTsXYcxQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
@@ -278,5 +278,12 @@
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\uipath.uiautomation.activities.22.4.5.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.vision\\3.3.0\\uipath.vision.3.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1007",
+      "level": "Error",
+      "filePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local",
+      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
+    }
+  ]
 }
