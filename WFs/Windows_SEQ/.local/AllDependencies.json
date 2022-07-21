@@ -18500,7 +18500,7 @@
             "version": "[22.4.0-preview, 22.4.0-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
@@ -18508,12 +18508,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1007",
-      "level": "Error",
-      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
-    }
-  ]
+  }
 }

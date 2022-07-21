@@ -90,7 +90,7 @@
               <OutArgument x:TypeArguments="x:String">[argOut]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="x:String">completed2</InArgument>
+              <InArgument x:TypeArguments="x:String">completed3</InArgument>
             </Assign.Value>
           </Assign>
         </Sequence>
