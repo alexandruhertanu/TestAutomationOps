@@ -41,13 +41,27 @@
     "fileInfoCollection": [],
     "modernBehavior": true
   },
+  "arguments": {
+    "input": [],
+    "output": [
+      {
+        "name": "outArg",
+        "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      }
+    ]
+  },
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
       "uniqueId": "e3c31c04-ff69-42e2-8e1c-9ea1286d4d3d",
       "input": [],
-      "output": []
+      "output": [
+        {
+          "name": "outArg",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ]
     }
   ],
   "isTemplate": false,

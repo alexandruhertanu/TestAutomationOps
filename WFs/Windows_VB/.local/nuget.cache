@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hh4hcWP8RrK5fy6rjLJBSP3Lhltjt0YCnJqV+6y4/Bo5tzuKVJWOWT2fZKWsIhEL4ufb59cI9Wvg9lbTsXYcxQ==",
+  "dgSpecHash": "VXeOR3mLcz2+60q8TRGiAtDHN5Ycph1cgKx45qK29Ywi7hr0rZihYo87jaVNau8C4zwkY1NETXtzh/BwOG2LFQ==",
   "success": false,
   "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local\\",
   "expectedPackageFiles": [
@@ -283,7 +283,7 @@
       "code": "NU1007",
       "level": "Error",
       "filePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\Windows_VB\\.local",
-      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
+      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.0.0-alpha.2798143\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
     }
   ]
 }
