@@ -2923,6 +2923,9 @@
           "lib/net45/Microsoft.Web.WebView2.WinForms.dll": {},
           "lib/net45/Microsoft.Web.WebView2.Wpf.dll": {}
         },
+        "native": {
+          "runtimes/win-x64/native/_._": {}
+        },
         "build": {
           "build/_._": {}
         }
@@ -3281,7 +3284,7 @@
           "ref/net45/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "runtimes/win/lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.7.1": {
@@ -3332,7 +3335,7 @@
           "lib/net461/_._": {}
         },
         "runtime": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Encodings.Web/4.7.1": {
@@ -8228,7 +8231,7 @@
             "version": "[22.4.0-preview, 22.4.0-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
@@ -8236,12 +8239,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1007",
-      "level": "Error",
-      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
-    }
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "6Hkj5+UQ19uduu+gjMBDTxBWNqgkClB8oS9IU2vjWvytptknsv+JWiCzKqEMvb7Qjq2i64CUKhcdLW8p5xQseg==",
-  "success": false,
+  "dgSpecHash": "6epvFBJc4u+KOIkYlSSD0nn9CQ168w0GYmbVPvtnfhDLkx49VxiV/Xv9AMltyp/VYC6b+2LUo1nOEkITzO24wQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\WinLegacy_VB_SEQ\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
@@ -103,12 +103,5 @@
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.0-preview\\uipath.uiautomation.activities.22.4.0-preview.nupkg.sha512",
     "C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.vision\\3.3.0-preview\\uipath.vision.3.3.0-preview.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1007",
-      "level": "Error",
-      "filePath": "C:\\Users\\alexandru.hertanu\\Documents\\UiPath\\TestAutomationOps\\WFs\\WinLegacy_VB_SEQ\\.local",
-      "message": "The runtime.json specified in the project 'C:\\Users\\alexandru.hertanu\\.nuget\\packages\\uipath.pipelines.activities\\1.17.196.893\\wrapper\\net6.0-windows7.0\\runtime.json' could not be found."
-    }
-  ]
+  "logs": []
 }
