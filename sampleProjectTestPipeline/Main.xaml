@@ -75,7 +75,7 @@
         <OutArgument x:TypeArguments="x:String">[outArg]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">value6</InArgument>
+        <InArgument x:TypeArguments="x:String">value7</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="356.8,102.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[outArg]" />
